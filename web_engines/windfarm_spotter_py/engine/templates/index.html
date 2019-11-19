@@ -23,51 +23,40 @@
           margin: 0;
           padding: 0;
         }
-
-
         .active {
             outline: 5px solid #33CC00;
             outline-offset:-5px;
         }
-
         .head-wrap {
             text-align:center;
         }
-
         #bbox-container {
             background-color: #E0E0E0;
         }
-
         #bbox-slider .slider-selection {
             background: #BABABA;
         }
-
         .slider {
             padding: 5px;
             font-size:10px;
             font-weight:400;
         }
-
         form {
             padding:20px 0px;
             text-align:center;
         }
-
         #img {
             display:inline-block;
         }
-
         input[type="submit"] {
             border-radius:5px;
             border:1px solid #eea236;
         }
-
         .info-area {
             height:550px;
             text-align:center;
             background-color: gray;
         }
-
         .loaded-img {
             padding:10px;
             max-width:400px;
@@ -75,58 +64,46 @@
             border-radius:5px;
             border:2px solid #d3d3d3;
         }
-
         .status-area {
             margin:20px 0px;
         }
-
         .result {
             display:block;
             font-size:20px;
             font-weight:700;
         }
-
         .eval {
             font-size:15px;
         }
-
         .success {
             color:#00b33c;
         }
-
         .failure {
             color:#ff0000;
         }
-
         .confidence {
             display:block;
             font-style:italic;
         }
-
         footer {
             bottom:0;
             width:100%;
         }
-
         .references.container {
             padding:20px 0px;
             text-align:center;
         }
-
         .view-container {
             display:block;
         }
-
         .view-container a {
             text-decoration:none;
         }
-
         .swiper-container {
           width: 100%;
           padding-top: 50px;
           padding-bottom: 50px;
         }
-
         .swiper-slide {
           background-position: center;
           background-size: cover;
@@ -137,7 +114,6 @@
           border-radius: 8px;
           z-index: 2 !important;
         }
-
         .picture .sample-img {
           width: 250px;
           height: 250px;
@@ -145,7 +121,6 @@
           background: #aaaaaa;
           background: linear-gradient(270deg, #aaaaaa 0%, #dedede 35%, #e6e6e6 100%);
         }
-
        .picture .sample-img img{
           display: block;
           width: 250px;
@@ -153,13 +128,10 @@
           -o-object-fit: cover;
              object-fit: cover;
         }
-
         /*div.swiper-slide.swiper-slide-active {
             cursor: default;
             z-index: 7 !important;
         }*/
-
-
         .detail {
           padding: 25px 20px;
           font-weight: 600;
@@ -176,31 +148,26 @@
           font-size: 16px;
           color: #FFF;
         }
-
         #predict-submit {
             background-color: #228b22 ;
             border-color: #fff;
             width: 120px;
             color: #fff;
         }
-
         .btn-warning {
             background-color: #000;
             color: white;
             border-color: white;
         }
-
         .btn-warning:hover {
             background-color: #d4d4d4;
             color: #000;
             border-color: white;
         }
-
         pre {
             color: white;
             font-weight: 400;
         }
-
         @media (max-width:447px) {
             form input {
                 width:100%;
@@ -226,17 +193,11 @@
         <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
         <script type="text/javascript">
-
-
         $(document).ready(function () {
-
             var $status = $('.status');
             var results = {
                 prediction: ""
             };
-
-
-
             var swiper = new Swiper(".swiper-container", {
               effect: "coverflow",
               grabCursor: true,
@@ -261,11 +222,9 @@
                     var request = new XMLHttpRequest();
                     request.open('GET', url, true);
                     request.responseType = 'blob';
-
                     request.onload = function() {
                         var reader = new FileReader();
                         reader.readAsDataURL(request.response);
-
                         // draw canvas of selected sample image
                         reader.onload =  function(e){
                             // console.log('DataURL:', e.target.result);
@@ -278,23 +237,17 @@
                             img.addEventListener("load", function(e) {
                                 ctx.drawImage(img,0,0, 400, 400);
                             });
-
                              $('html, body').animate({
                                     scrollTop: $("#results_section").offset().top
                                 }, 2000);
-
                             // blob into form data
                             var blob = request.response;
-
                             // console.log(formD);
                             var full_url = "/"+url
-
-
                             $.ajax({
                                 url: "{{url_for('predict')}}",
                                 type: 'POST',
                                 data: {"file": full_url},
-
                                 success: function(responseData) {
                                     if (responseData.error === 'bad-type') {
                                         console.log('no good')
@@ -324,13 +277,10 @@
               }
             });
          });
-
-
         $('#img').change(function(event) {
             var obj = $(this)[0];
             // console.log(obj.files, obj.files[0])
             $status.html('');
-
             if (obj.files && obj.files[0]) {
                 var fileReader = new FileReader();
                 fileReader.onload = function(event) {
@@ -347,22 +297,16 @@
                 fileReader.readAsDataURL(obj.files[0]);
             }
         });
-
-
-
         $('#predict').submit(function(event) {
             event.preventDefault();
-
             if ($('#img')[0].files.length === 0) {
                 return false;
             }
-
             var imageData = new FormData($(this)[0]);
             console.log($(this)[0]);
             $status.html(
                 `<span class='eval'>Evaluating...</span>`
             );
-
             $.ajax({
                 url: '/predict',
                 type: 'POST',
@@ -370,7 +314,6 @@
                 contentType: false,
                 dataType: 'json',
                 data: imageData,
-
                 success: function(responseData) {
                     if (responseData.error === 'bad-type') {
                         $status.html(
@@ -392,12 +335,6 @@
                 }
             });
         });
-
-
-
-        $('.killme').click(function(){
-         $(this).parent().remove();
-        });
         </script>
     </head>
     <body style="background-color: #222">
@@ -418,7 +355,7 @@
                         <!-- Slides -->
                         {% for img_src in samples %}
                        <div class="swiper-slide">
-                          <p class="killme" style="text-align: center; font-weight: 400">{{img_src[24:]}}</p>
+                          <p class="remove_me" style="text-align: center; font-weight: 400">{{img_src[24:]}}</p>
                             <div class="picture">
                                 <img class="sample-img" src="{{img_src[7:]}}" alt="">
                              </div>
@@ -430,23 +367,10 @@
                         {% endfor %}
                        </div>
                 </div>
-                <!--<div class="row">
-                    {% for img_src in samples %}
-                    <div class="col-sm-3">
-                        <p><img class="sample_img" src="{{img_src[7:]}}" height="150" width="150"/></p>
-                    </div>
-                    {% endfor %}
-                </div>-->
             </div>
         </div>
 
         <div class="container">
-            <!--<h3>Or upload image:</h3>
-            <form id="predict" method="post" enctype="multipart/form-data" action="upload">
-                <input class="btn btn-warning" id="img" name="file" type="file" accept=".jpeg,.jpg,.png"/>
-                <input class="btn" id="predict-submit" type="submit" value="Predict!"/>
-            </form>-->
-
             <hr />
             <div class="row" id="results_section">
                 <div class="col-sm pull-left">
