@@ -1,3 +1,2 @@
-# src
+# WindFarmSpotter
 
-A description of this package.
