@@ -1,3 +1,0 @@
-Flask==1.1.1
-fastai==1.0.58
-pytorchcv==0.0.51
