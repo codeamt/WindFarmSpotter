@@ -6,15 +6,20 @@
 
 ## Data
 
-#### Sources
-- US Wind Farm Database (USWFDB) 
-- The National Renewable Energy Laboratory (NREL) 
+**Sources:** 
+- [US Wind Farm Database (USWFDB)]() 
+- [The National Renewable Energy Laboratory (NREL)]() 
+
+**Files:**
+- [Google Earth Engine Script]() 
+- [Basemap Patch]()
+- [DataFrames]() 
 
 
-#### Training Data Set 
+#### Data Set Generation 
+**Notebook:** - [Data Engineering]() 
 
-
-#### Categories 
+**Categories:** 
 - Turbines - High Capacity Wind Farm 
 - Turbines - Medium Capacity Wind Farm
 - Turbines - Low Capacity Wind Farm 
@@ -26,7 +31,6 @@
 ## Training + Inference Test 
 
 #### Notebooks 
-- [Data Engineering]() 
 - [Fastai_Train_EfficientNet]()
 - [Fastai_Train_Inceptionv3]()
 - [Training_Evaluation]() 
