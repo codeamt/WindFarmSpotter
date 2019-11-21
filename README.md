@@ -1,3 +1,17 @@
-# src
+# WindFarmSpotter-Swift for Edge (Jetson TX2)
 
-A description of this package.
+
+
+## Setup 
+
+
+
+## Build Instructions 
+
+
+
+## Running 
+
+
+
+## Usage 
