@@ -6,15 +6,15 @@
 
 ## Data
 
-### Sources
+#### Sources
 - US Wind Farm Database (USWFDB) 
 - The National Renewable Energy Laboratory (NREL) 
 
 
-### Training Data Set 
+#### Training Data Set 
 
 
-### Categories 
+#### Categories 
 - Turbines - High Capacity Wind Farm 
 - Turbines - Medium Capacity Wind Farm
 - Turbines - Low Capacity Wind Farm 
@@ -25,22 +25,22 @@
 
 ## Training + Inference Test 
 
-### Notebooks 
-- Data Engineering 
-- Fastai_Train_EfficientNet
-- Fastai_Train_Inceptionv3
-- Training_Evaluation 
-- Python GPU Inference Test (Batch)
-- Python CPU Inference Test (Single) 
-- Swift-Python CPU Inference Test (Single)
+#### Notebooks 
+- [Data Engineering]() 
+- [Fastai_Train_EfficientNet]()
+- [Fastai_Train_Inceptionv3]()
+- [Training_Evaluation]() 
+- [Python GPU Inference Test (Batch]()
+- [Python CPU Inference Test (Single)]() 
+- [Swift-Python CPU Inference Test (Single)]()
 
 ## Deployments 
 
-### Python
-wfs_python (Ubuntu, armv8/aarch64)
+#### Python 3.+
+wfs_python ([Ubuntu](), [armv8/aarch64]())
 
-### Swift
-wfs_swift (OSX, Ubuntu, armv8/aarch64)
+#### Swift 5.+
+wfs_swift ([OSX/Ubuntu](), [armv8/aarch64]())
 
 
 ## References 
