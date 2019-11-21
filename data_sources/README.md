@@ -16,10 +16,36 @@
 ## About the Data 
 
 
+### Existing Turbine Farms
 
+
+
+**Stats:**
+
+
+**Classes:**
+
+
+### Potential Turbine Farm Sites
+
+
+**Wind Classes:***
+
+
+**Feature Extraction Process:**
+
+
+**Stats:**
+
+
+**Classes:**
 
 
 ## Image Generation 
+
+
+
+**Basemap**
 
 
 
