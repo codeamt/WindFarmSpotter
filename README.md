@@ -1,6 +1,7 @@
 # WindFarmSpotter
 
-## Description 
+
+## About the Project
 
 
 
