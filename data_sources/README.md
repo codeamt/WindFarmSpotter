@@ -19,6 +19,7 @@
 ## Existing Turbine Farms
 
 
+**Description:**
 
 **Stats:**
 
@@ -28,11 +29,15 @@
 
 ### Class: Turbines - Low Capacity
 
+**Description:**
+
 
 **Stats:**
 
 
 ### Class: Turbines - Medium Capacity
+
+**Description:**
 
 **Stats:**
 
@@ -40,17 +45,20 @@
 ### Class: Turbines - High Capacity 
 
 
+**Description:**
+
 **Stats:**
 
 
 ## Wind Deserts/No Farm Capacity 
 
 
-**Stats:**
-
-
 
 ### Class: No Turbines  - No Capacity
+
+**Description:**
+
+**Stats:**
 
 
 ## Potential Turbine Farm Sites
@@ -65,18 +73,22 @@
 
 ### Class: No Turbines - Low Capacity Potential
 
+**Description:**
 
 **Stats:**
 
 
 ### Class: No Turbines - Medium Capacity Potential
 
+**Description:**
 
 **Stats:**
 
 
 ### Class: No Turbines - High Capacity Potential
 
+
+**Description:**
 
 **Stats:**
 
