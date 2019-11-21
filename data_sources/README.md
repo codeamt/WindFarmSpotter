@@ -26,10 +26,30 @@
 **Classes:**
 
 
+***Turbines - Low Capacity***
+
+
+***Turbines - Medium Capacity***
+
+
+***Turbines - High Capacity***
+
+
+### Wind Deserts/No Farm Capacity 
+
+
+**Stats:**
+
+
+**Classes:**
+
+***No Turbines  - No Capacity*** 
+
+
 ### Potential Turbine Farm Sites
 
 
-**Wind Classes:***
+**Wind Classes:**
 
 
 **Feature Extraction Process:**
