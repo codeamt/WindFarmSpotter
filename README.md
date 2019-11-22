@@ -19,40 +19,34 @@ Create a container, attach, and run riught away:
 docker run --privileged -i -t --name <any name, e.g., wfs_swift> codeamt/WindFarmSpotter-swift /bin/bash
 ```
 
-To Detach:
+To detach:
 ```
 docker ps -a | grep <the container name, e.g., wfs_swift>
 ```
 
-
-## Running 
-
-**Locally:**
-
-From root of directory:
-```
-swift run
-```
-
-
-**with Docker (Returning):**
-
+To restart:
 ```
 docker start <the container name,, e.g., wfs_swift>
 docker attach <the container name,, e.g., wfs_swift>
 ```
 
-## Usage 
+
+
+## Running and Usage 
 
 **via Terminal:**
 
-Run docker container as described above, then: 
-
-
-Open a terminal window:
+Open a seperate terminal window for making requests later:
 ```
-gnome terminal
+gnome terminal 
 ```
+
+Run docker container as described above in main terminal: 
+```
+#swift --version (to confirm swift is available)\
+swift run 
+```
+
 
 From a new terminal window, make a GET request to the index endpoint or POST to predict endpoint. Sample inference request:
 ```
