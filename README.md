@@ -46,6 +46,14 @@ docker attach <the container name,, e.g., wfs_swift>
 
 **via Terminal:**
 
+Run docker container as described above, then: 
+
+
+Open a terminal window:
+```
+gnome terminal
+```
+
 From a new terminal window, make a GET request to the index endpoint or POST to predict endpoint. Sample inference request:
 ```
 curl -X POST http://127.0.0.1:3333/predict -H "Content-Type: application/json"  -d '{"img":""}'
