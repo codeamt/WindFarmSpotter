@@ -7,6 +7,9 @@
 
 ## Data
 
+**Notebook:** 
+- [Data Engineering](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/data_engineering.ipynb)
+
 **Sources:** 
 - [US Wind Farm Database (USWFDB)](https://medium.com/r/?url=https%3A%2F%2Feerscmap.usgs.gov%2Fuswtdb%2Fdata%2F) 
 - [The National Renewable Energy Laboratory (NREL)](https://www.nrel.gov/) 
@@ -14,23 +17,29 @@
 **Files:**
 - [Google Earth Engine Script]() 
 - [Basemap Patch](https://github.com/codeamt/WindFarmSpotter/blob/master/data_sources/basemap_patch.txt)
-- [Data Files](https://github.com/codeamt/WindFarmSpotter/tree/master/data_sources) 
+- [Data Files](https://github.com/codeamt/WindFarmSpotter/tree/master/data_sources)
 
 
-### Data Points 
-**Notebook:** 
-- [Data Engineering](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/data_engineering.ipynb) 
+#### Models and Performance Metrics: 
+
+| Model | Valid Error |  Valid Acc.  |  Top 1/3% (GPU, Python) |  ITpI (Python) |  ITpI (Swift)  |  
+| --- | --- | --- |
+| EfficientNet-b1 |  .06   |  99.19  |  74/92|  0.43s |  0.23s  |
+| Inception-v3    |  .09   |  98.81  |  74/86  |  0.43s |  0.22s  |
 
 
-| Category  | Count |
-| --- | --- |
-| Turbines Low Capacity | 357  | 
-| Turbines Medium Capacity | 656 |
-| Turbines High Capacity  | 335 |
-| No Turbines - No Capacity | 201 |
-| No Turbines - Low Capacity Potential | 150 |
-| No Turbines - Medium Capacity Potential | 115 |
-| No Turbines - High Capacity Potential | 108 |
+
+#### Data Points: 
+ 
+| Category  | Count | Sample Size  |
+| --- | --- | --- |
+| Turbines - Low Capacity | 357  | 200 |
+| Turbines - Medium Capacity | 656 | 250 |
+| Turbines - High Capacity  | 335 |  175 |
+| No Turbines - No Capacity | 201 | 201 |
+| No Turbines - Low Capacity Potential | 150 |  150 |
+| No Turbines - Medium Capacity Potential | 115 |  115 |
+| No Turbines - High Capacity Potential | 108 |  108 |
 
 
 ## Training + Inference Test 
