@@ -17,17 +17,21 @@
 - [Data Files](https://github.com/codeamt/WindFarmSpotter/tree/master/data_sources) 
 
 
-### Data Set Generation 
-**Notebook:** - [Data Engineering](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/data_engineering.ipynb) 
+### Data Points 
+**Notebook:** 
+- [Data Engineering](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/data_engineering.ipynb) 
 
-**Categories:** 
-- Turbines - High Capacity Wind Farm 
-- Turbines - Medium Capacity Wind Farm
-- Turbines - Low Capacity Wind Farm 
-- No Turbines - No Potential 
-- No Turbines - Low Capacity Potential 
-- No Turbines - Medium Capacity Potential 
-- No Turbines - High Capacity Potential 
+
+| Category  | Count |
+| --- | --- |
+| Turbines Low Capacity | 357  | 
+| Turbines Medium Capacity | 656 |
+| Turbines High Capacity  | 335 |
+| No Turbines - No Capacity | 201 |
+| No Turbines - Low Capacity Potential | 150 |
+| No Turbines - Medium Capacity Potential | 115 |
+| No Turbines - High Capacity Potential | 108 |
+
 
 ## Training + Inference Test 
 
