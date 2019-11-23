@@ -33,6 +33,7 @@ python3 run.py
 
 Open a seperate terminal and make a GET request to / endpoint:
 ```
+curl -X GET http://127.0.0.1:5000/
 ```
 
 Sample POST request to /predict endpoint:
