@@ -37,6 +37,7 @@ Open a seperate terminal and make a GET request to / endpoint:
 
 Sample POST request to /predict endpoint:
 ```
+curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json"  -d '{"file":"engine/static/test_imgs/test_no_turbines_high_potential_5.jpg"}'
 ```
 
 **From Front End:***
