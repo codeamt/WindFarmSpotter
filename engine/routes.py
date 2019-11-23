@@ -12,19 +12,21 @@ from werkzeug.utils import secure_filename
 
 @app.route("/", methods=["GET"])
 def index():
-  samples = glob.glob("%s/*" % app.config['SAMPLE_FOLDER'])
   instructions = "Welcome to WindSpotter!\n\nThis API exposes a model for inferring wind farm capacity of \
-  satellite imagery input.\n\nSample test images are located in the root > static > test_imgs.\n\nThe API is comprised of the following endpoints:\n\n/predict\n\n\n\nTo run inference on a sample image, make a POST request to the prediction endpoint.\n\n\n\nExample request:\n\n\n\ncurl -X POST http://127.0.0.1:5000/predict -H 'Content-Type: application/json'  -d '{'file':'~/wfs_inference_py/engine/static/test_imgs/test_low_capacity_7.jpg'}'"
-  return jsonify({"instructions": instructions, "sample_file_names": samples})
-  if request.args['type'] == 'json':
-    return jsonify({"instructions": instructions, "sample_file_names": samples})
+  satellite imagery input.\n\nSample test images are located in the root > data > test.\n\nThe API is comprised of the following endpoints:"
+
+
+  samples = glob.glob("%s/*" % app.config['SAMPLE_FOLDER'])
+
+  if request.is_json:
+    return jsonify(instructions)
   else:
-  return render_template('index.html', samples=samples)
+    return render_template('index.html', samples=samples)
 
 
 @app.route("/predict", methods=["POST"])
 def predict():
-  windfarmspotter_model = WindFarmSpotter(app.config["PATH"])
+
   label_map = {
      "turbines_low_capacity": "Low Capacity Wind Farm",
      "turbines_medium_capacity": "Medium Capacity Wind Farm",
@@ -34,6 +36,9 @@ def predict():
      "no_turbines_med_potential": "Potential Medium Capacity Wind Farm",
      "no_turbines_high_potential": "Potential High Capacity Wind Farm"
   }
+
+  windfarmspotter_model = WindFarmSpotter(app.config["PATH"])
+  windfarmspotter_model.model.model.eval()
 
 
   if request.is_json:
@@ -63,3 +68,7 @@ def predict():
     app.logger.info("Execution time: %0.02f seconds" % (dt))
     app.logger.info("Image %s classified as %s" % (Path(user_input).name, pred_class))
     return jsonify({"prediction": label_map[str(pred_class)]})
+
+
+
+
