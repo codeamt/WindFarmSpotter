@@ -50,8 +50,8 @@ swift run
 **with Docker (Returning):**
 
 ```
-docker start <the container name,, e.g., wfs_swift>
-docker attach <the container name,, e.g., wfs_swift>
+docker start <the container name, e.g., wfs_swift>
+docker attach <the container name, e.g., wfs_swift>
 ```
 
 ## Usage 
