@@ -16,7 +16,7 @@ docker pull codeamt/wfs_swift_edge
 
 Create a container, attach, and run riught away:
 ```
-docker run --privileged -i -t --name <any name, e.g., wfs_swift_edge> codeamt/WindFarmSpotter-swift /bin/bash
+docker run --privileged -i -t --name <any name, e.g., wfs_swift_edge> codeamt/wfs_swift_edge /bin/bash
 ```
 
 To detach:
@@ -26,8 +26,8 @@ docker ps -a | grep <the container name, e.g., wfs_swift>
 
 To restart:
 ```
-docker start <the container name,, e.g., wfs_swift_edge>
-docker attach <the container name,, e.g., wfs_swift_edge>
+docker start <the container name, e.g., wfs_swift_edge>
+docker attach <the container name, e.g., wfs_swift_edge>
 ```
 
 
