@@ -23,7 +23,7 @@
 #### Models and Performance Metrics: 
 
 | Model | Params |   Valid Error |  Valid Acc.  |  Top 1/3% (GPU, Python) |  ITpI (Python) |  ITpI (Swift)  |  
-| --- | --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- | --- | --- | 
 | EfficientNet-b1 |  5m   |  .06   |  99.19  |  74/92  |  0.43s |  0.23s  |
 | Inception-v3    | 40m   |  .09   |  98.81  |  74/86  |  0.43s |  0.22s  |
 
