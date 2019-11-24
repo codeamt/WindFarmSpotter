@@ -23,12 +23,12 @@ swift package clean
 
 Pull image from Docker:
 ```
-docker pull codeamt/WindFarmSpotter-swift
+docker pull codeamt/wfs_swift_web
 ```
 
 Create a container, attach, and run riught away:
 ```
-docker run --privileged -i -t --name <any name, e.g., wfs_swift> codeamt/WindFarmSpotter-swift /bin/bash
+docker run --privileged -i -t --name <any name, e.g., wfs_swift> codeamt/wfs_swift_web /bin/bash
 ```
 
 To Detach:
