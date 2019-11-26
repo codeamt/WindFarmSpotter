@@ -18,7 +18,7 @@ Blogpost: Coming Soon
 - [The National Renewable Energy Laboratory (NREL)](https://www.nrel.gov/) 
 
 **Files:**
-- [Google Earth Engine Script]() 
+- [Google Earth Engine Script](https://github.com/codeamt/WindFarmSpotter/blob/master/data_sources/wfs_google_ee_script.txt) || [(View in Google EE Editor)](https://code.earthengine.google.com/f723127a012d4ca7f06e8b9a412962cd) 
 - [Basemap Patch](https://github.com/codeamt/WindFarmSpotter/blob/master/data_sources/basemap_patch.txt)
 - [Data Files](https://github.com/codeamt/WindFarmSpotter/tree/master/data_sources)
 
