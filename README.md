@@ -3,6 +3,9 @@
 
 ## About the Project
 
+(TODO)
+Blogpost: Coming Soon
+
 
 
 ## Data
@@ -47,7 +50,7 @@
 #### Notebooks 
 - [Fastai_Train_EfficientNet](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_efficientnet_b1.ipynb)
 - [Fastai_Train_Inceptionv3](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_inception_v3.ipynb)
-- [Training_Evaluation]() 
+- [FASTAI Training Evaluation]()
 - [Python GPU Inference Test (Batch](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/python_inference_test_gpu.ipynb)
 - [Python CPU Inference Test (Single)](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/python_inference_test_cpu.ipynb) 
 - [Swift-Python CPU Inference Test (Single)](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/swift_inference_test_cpu.ipynb)
@@ -62,12 +65,11 @@ wfs_swift ([OSX/Ubuntu](https://github.com/codeamt/WindFarmSpotter/tree/wfs-swif
 
 
 ## References + Open Source Code 
-- [Tracking The Carbon Footprint]() 
-- [Wind Energy DB Post]() 
-- [Scripting in Google EE]()
-- [Fastai Documentation]() 
-- [EfficientNet:Theory and Code]() 
-- [Transfer Learning with EfficientNet]() 
-- [Fastai Jetson Nano]()
-- [Building Multi-arch builds w/ Docker]()
+- [Using ML to Map the Footprint of Fracking](https://skytruth.org/2019/02/using-machine-learning-to-map-the-footprint-of-fracking-in-central-appalachia/) 
+- [Making Energy Data A Breeze](https://chesterenergyandpolicy.com/2018/05/29/making-energy-data-a-breeze-the-u-s-wind-turbine-database/amp/) 
+- [Deep Learning with Satellite Data](https://towardsdatascience.com/deep-learning-with-satellite-data-b78b20708de)
+- [Fastai Documentation](https://docs.fast.ai/index.html) 
+- [EfficientNet:Theory and Code](https://www.learnopencv.com/efficientnet-theory-code/) 
+- [Fastai Jetson Nano](https://github.com/brtknr/fastai-jetson-nano)
+- [Building Multi-arch builds w/ Docker](https://medium.com/@futurejones/building-a-multi-arch-swift-docker-image-using-docker-desktop-122c85110a6f)
 
