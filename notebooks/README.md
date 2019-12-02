@@ -1,9 +1,5 @@
-# WFS Training and Inference Tests 
+# WFS Pipeline Notebooks
 
-
-
-
-## Environment + Packages 
 
 
 ## Data Engineering
