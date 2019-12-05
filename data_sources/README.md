@@ -15,91 +15,14 @@
 
 ## About the Data 
 
-
-## Existing Turbine Farms
-
-
-**Description:**
-
-**Stats:**
-
-
-
-
-
-### Class: Turbines - Low Capacity
-
-**Description:**
-
-
-**Stats:**
-
-
-### Class: Turbines - Medium Capacity
-
-**Description:**
-
-**Stats:**
-
-
-### Class: Turbines - High Capacity 
-
-
-**Description:**
-
-**Stats:**
-
-
-## Wind Deserts/No Farm Capacity 
-
-
-
-### Class: No Turbines  - No Capacity
-
-**Description:**
-
-**Stats:**
-
-
-## Potential Turbine Farm Sites
-
-
-**Wind Power:**
-
-
-**Feature Extraction Process:**
-
-
-
-### Class: No Turbines - Low Capacity Potential
-
-**Description:**
-
-**Stats:**
-
-
-### Class: No Turbines - Medium Capacity Potential
-
-**Description:**
-
-**Stats:**
-
-
-### Class: No Turbines - High Capacity Potential
-
-
-**Description:**
-
-**Stats:**
-
-
-## Image Generation 
-
-
-
-**Basemap**
-
-
-
-
-## References 
+#### Data Points: 
+ 
+| Category  | Count | Sample Size  |
+| --- | --- | --- |
+| Turbines - Low Capacity | 357  | 200 |
+| Turbines - Medium Capacity | 656 | 250 |
+| Turbines - High Capacity  | 335 |  175 |
+| No Turbines - No Capacity | 201 | 201 |
+| No Turbines - Low Capacity Potential | 150 |  150 |
+| No Turbines - Medium Capacity Potential | 115 |  115 |
+| No Turbines - High Capacity Potential | 108 |  108 |
