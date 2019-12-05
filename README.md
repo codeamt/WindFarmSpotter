@@ -22,9 +22,9 @@ Medium Post: Coming Soon
 - [Data Files](https://github.com/codeamt/WindFarmSpotter/tree/master/data_sources)
 
 
-## Training + Inference Test 
+## [Training + Inference Test](https://github.com/codeamt/WindFarmSpotter/tree/master/notebooks) 
 
-#### [Notebooks](https://github.com/codeamt/WindFarmSpotter/tree/master/notebooks) 
+#### Notebooks
 - [Fastai_Train_EfficientNet](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_efficientnet_b1.ipynb) || [View on Colab](https://drive.google.com/open?id=1Mz9Di8pUAX0fEsWRz0ssNdo1Gyx0JjsU)
 - [Fastai_Train_Inceptionv3](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_inception_v3.ipynb) || [View on Colab](https://drive.google.com/open?id=1fIUkuPzIbUGJH8xqxG10YJ024K4WeJtU)
 - [Fastai Training Evaluation](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/training_evaluation.ipynb) || [View on Colab](https://colab.research.google.com/drive/13o70eRwOY0qAY1lmDetfWDz6hYhcBry5)
