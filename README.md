@@ -2,13 +2,12 @@
 
 
 ## About the Project
+Wind Farm Spotter is an inference engine for classifying the capacity of existing land-based U.S. Wind Farms and the potential capacity of unoccupied locations for new Wind Farm projects based on aerial satellite images.
 
-(TODO)
-Blogpost: Coming Soon
+Medium Post: Coming Soon
 
 
-
-## Data
+## [Data](https://github.com/codeamt/WindFarmSpotter/tree/master/data_sources)
 
 **Notebook:** 
 - [Data Engineering](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/data_engineering.ipynb) || [View on Colab](https://colab.research.google.com/drive/1eiidH3LRUdyxmb5knnxI1ZaMw9XkKn4b)
@@ -23,37 +22,16 @@ Blogpost: Coming Soon
 - [Data Files](https://github.com/codeamt/WindFarmSpotter/tree/master/data_sources)
 
 
-#### Models and Performance Metrics: 
-
-| Model | Params |   Valid Error |  Valid Acc.  |  Top 1/3% (GPU, Python) |  ITpI (Python) |  ITpI (Swift)  |  
-| --- | --- | --- | --- | --- | --- | --- | 
-| EfficientNet-b1 |  5m   |  .06   |  99.19  |  74/92  |  0.43s |  0.23s  |
-| Inception-v3    | 40m   |  .09   |  98.81  |  74/86  |  0.43s |  0.22s  |
-
-
-
-#### Data Points: 
- 
-| Category  | Count | Sample Size  |
-| --- | --- | --- |
-| Turbines - Low Capacity | 357  | 200 |
-| Turbines - Medium Capacity | 656 | 250 |
-| Turbines - High Capacity  | 335 |  175 |
-| No Turbines - No Capacity | 201 | 201 |
-| No Turbines - Low Capacity Potential | 150 |  150 |
-| No Turbines - Medium Capacity Potential | 115 |  115 |
-| No Turbines - High Capacity Potential | 108 |  108 |
-
-
 ## Training + Inference Test 
 
-#### Notebooks 
+#### [Notebooks](https://github.com/codeamt/WindFarmSpotter/tree/master/notebooks) 
 - [Fastai_Train_EfficientNet](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_efficientnet_b1.ipynb) || [View on Colab](https://colab.research.google.com/drive/1Mz9Di8pUAX0fEsWRz0ssNdo1Gyx0JjsU)
 - [Fastai_Train_Inceptionv3](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_inception_v3.ipynb) || [View on Colab](https://colab.research.google.com/drive/1fIUkuPzIbUGJH8xqxG10YJ024K4WeJtU)
 - [Fastai Training Evaluation](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/training_evaluation.ipynb) || [View on Colab](https://colab.research.google.com/drive/13o70eRwOY0qAY1lmDetfWDz6hYhcBry5)
-- [Python GPU Inference Test (Batch)](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/python_inference_test_gpu.ipynb) || [View on Colab](https://colab.research.google.com/drive/1RO2--MafCcwmcwP8EJL6plsVLzNSiMgz)
-- [Python CPU Inference Test (Single)](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/python_inference_test_cpu.ipynb) || [View on Colab](https://colab.research.google.com/drive/1viqB52s_LvSE9FaydUzxDt832N11Uni0)
-- [Swift-Python CPU Inference Test (Single)](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/swift_inference_test_cpu.ipynb) || [View on Colab](https://colab.research.google.com/drive/1-3XFhgZQ_6Hy13JuoQ4ywGrnjlFwMCQj)
+- [Python GPU Inference Test (Batch, Single)](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/python_inference_test_gpu.ipynb) || [View on Colab](https://drive.google.com/open?id=1RO2--MafCcwmcwP8EJL6plsVLzNSiMgz)
+- [Swift-Python GPU Inference Test (Batch, Single)](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/swift_inference_test_gpu.ipynb) || [View on Colab](https://drive.google.com/open?id=1pUU6vxdjXHNrIz3aher-coa0zRRZ2LSP)
+- [Python CPU Inference Test (Single)](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/python_inference_test_cpu.ipynb) || [View on Colab](https://drive.google.com/open?id=1viqB52s_LvSE9FaydUzxDt832N11Uni0)
+- [Swift-Python CPU Inference Test (Single)](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/swift_inference_test_cpu.ipynb) || [View on Colab](https://drive.google.com/open?id=1-3XFhgZQ_6Hy13JuoQ4ywGrnjlFwMCQj)
 
 ## Deployments 
 
