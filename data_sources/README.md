@@ -26,3 +26,7 @@
 | No Turbines - Low Capacity Potential | 150 |  150 |
 | No Turbines - Medium Capacity Potential | 115 |  115 |
 | No Turbines - High Capacity Potential | 108 |  108 |
+
+
+## Notebook
+[Data Engineering](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/data_engineering.ipynb) || [View on Colab](https://drive.google.com/open?id=1eiidH3LRUdyxmb5knnxI1ZaMw9XkKn4b)
