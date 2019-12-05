@@ -10,7 +10,7 @@ Medium Post: Coming Soon
 ## [Data](https://github.com/codeamt/WindFarmSpotter/tree/master/data_sources)
 
 **Notebook:** 
-- [Data Engineering](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/data_engineering.ipynb) || [View on Colab](https://colab.research.google.com/drive/1eiidH3LRUdyxmb5knnxI1ZaMw9XkKn4b)
+- [Data Engineering](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/data_engineering.ipynb) || [View on Colab](https://drive.google.com/open?id=1eiidH3LRUdyxmb5knnxI1ZaMw9XkKn4b)
 
 **Sources:** 
 - [US Wind Farm Database (USWFDB)](https://medium.com/r/?url=https%3A%2F%2Feerscmap.usgs.gov%2Fuswtdb%2Fdata%2F) 
@@ -25,8 +25,8 @@ Medium Post: Coming Soon
 ## Training + Inference Test 
 
 #### [Notebooks](https://github.com/codeamt/WindFarmSpotter/tree/master/notebooks) 
-- [Fastai_Train_EfficientNet](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_efficientnet_b1.ipynb) || [View on Colab](https://colab.research.google.com/drive/1Mz9Di8pUAX0fEsWRz0ssNdo1Gyx0JjsU)
-- [Fastai_Train_Inceptionv3](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_inception_v3.ipynb) || [View on Colab](https://colab.research.google.com/drive/1fIUkuPzIbUGJH8xqxG10YJ024K4WeJtU)
+- [Fastai_Train_EfficientNet](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_efficientnet_b1.ipynb) || [View on Colab](https://drive.google.com/open?id=1Mz9Di8pUAX0fEsWRz0ssNdo1Gyx0JjsU)
+- [Fastai_Train_Inceptionv3](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_inception_v3.ipynb) || [View on Colab](https://drive.google.com/open?id=1fIUkuPzIbUGJH8xqxG10YJ024K4WeJtU)
 - [Fastai Training Evaluation](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/training_evaluation.ipynb) || [View on Colab](https://colab.research.google.com/drive/13o70eRwOY0qAY1lmDetfWDz6hYhcBry5)
 - [Python GPU Inference Test (Batch, Single)](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/python_inference_test_gpu.ipynb) || [View on Colab](https://drive.google.com/open?id=1RO2--MafCcwmcwP8EJL6plsVLzNSiMgz)
 - [Swift-Python GPU Inference Test (Batch, Single)](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/swift_inference_test_gpu.ipynb) || [View on Colab](https://drive.google.com/open?id=1pUU6vxdjXHNrIz3aher-coa0zRRZ2LSP)
