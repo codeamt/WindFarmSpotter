@@ -1,4 +1,4 @@
-# WFS Data 
+# Wind Farm Spotter: Data and Feature Engineering 
 
 
 <p align="center">
