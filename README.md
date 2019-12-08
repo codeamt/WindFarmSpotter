@@ -1,7 +1,7 @@
 # WindFarmSpotter v1
 
 <p align="center">
-  <img src="https://ucarecdn.com/333d5437-d580-48fa-b5e9-4ede483c351d/1_ebjHiuNlVqFF3q5nLdbWFQ.png">
+  <img src="https://ucarecdn.com/ce424324-72f5-4c42-b66f-a13e671914b6/ScreenShot20191207at100423PM.png">
 </p>
 
 ## About the Project
