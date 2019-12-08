@@ -1,5 +1,8 @@
 # WindFarmSpotter-Python for Edge (Jetson TX2)
 
+<p align="center">
+  <img src="https://ucarecdn.com/8a005294-8d27-40c0-b0d9-bc56e466f8eb/ScreenShot20191207at75241PM.png">
+</p>
 
 
 ## Pre-requisites: 
@@ -137,6 +140,8 @@ sudo python3 run.py
 
 Visit localhost:5555 in your browser on the host machine, browse images, and click on one to get a prediction!
 
-
+<p align="center">
+  <img src="https://ucarecdn.com/81e0d499-080c-497e-b761-81e95c02f371/ScreenShot20191207at75437PM.png">
+</p>
 
 
