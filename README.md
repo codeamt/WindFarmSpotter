@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="https://ucarecdn.com/8a005294-8d27-40c0-b0d9-bc56e466f8eb/ScreenShot20191207at75241PM.png">
+  <img src="https://ucarecdn.com/bba2f0e8-832e-475a-9796-67b9e33644e7/1_bHijJYSTPw8YcKSDoBHq3g.png" width=50%>
 </p>
 
 
