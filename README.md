@@ -1,5 +1,8 @@
 # WindFarmSpotter-Python for Web 
 
+<p align="center">
+  <img src="https://ucarecdn.com/8a005294-8d27-40c0-b0d9-bc56e466f8eb/ScreenShot20191207at75241PM.png">
+</p>
 
 
 
@@ -44,5 +47,9 @@ curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json"  
 **From Front End:***
 
 Open localhost:5555 browse test images, and select one to get a prediction!
+
+<p align="center">
+  <img src="https://ucarecdn.com/81e0d499-080c-497e-b761-81e95c02f371/ScreenShot20191207at75437PM.png">
+</p>
 
 
