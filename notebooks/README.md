@@ -39,8 +39,8 @@
 
 
 **Notebook(s):**
-- [train_efficientnet_b1.ipynb](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_efficientnet_b1.ipynb)
-- [train_inception_v3.ipynb](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_inception_v3.ipynb)
+- [train_efficientnet_b1.ipynb](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_efficientnet_b1.ipynb) || [View in Colab](https://drive.google.com/open?id=1Mz9Di8pUAX0fEsWRz0ssNdo1Gyx0JjsU)
+- [train_inception_v3.ipynb](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_inception_v3.ipynb) || [View in Colab](https://drive.google.com/open?id=1fIUkuPzIbUGJH8xqxG10YJ024K4WeJtU)
 
 
 
@@ -61,7 +61,7 @@
 
 
 **Notebook(s):**
-- [training_evaluation.ipynb](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/training_evaluation.ipynb)
+- [training_evaluation.ipynb](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/training_evaluation.ipynb) || [View in Colab](https://colab.research.google.com/drive/13o70eRwOY0qAY1lmDetfWDz6hYhcBry5)
 
 
 ## Inference Tests
