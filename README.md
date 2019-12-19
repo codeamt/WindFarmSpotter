@@ -7,7 +7,7 @@
 ## About the Project
 Wind Farm Spotter is an inference engine for classifying the capacity of existing land-based U.S. Wind Farms and the potential capacity of unoccupied locations for new Wind Farm projects based on aerial satellite images.
 
-Medium Post: Coming Soon
+Medium Post: https://medium.com/experimenting-with-deep-learning/spotting-potential-classifying-prime-areas-for-renewable-wind-energy-farms-with-computer-vision-fcdbdf4f24f9
 
 ## Repo Contents
 
