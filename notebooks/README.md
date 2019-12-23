@@ -39,9 +39,11 @@
 
 
 **Notebook(s):**
-- [train_efficientnet_b1.ipynb](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_efficientnet_b1.ipynb) || [View in Colab](https://drive.google.com/open?id=1Mz9Di8pUAX0fEsWRz0ssNdo1Gyx0JjsU)
+- [train_efficientnet_b1.ipynb](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_efficientnet_b1.ipynb) || [View in Colab](https://drive.google.com/open?id=1QrGQVT2Onq6qLsDjrTBkT3jCj2wQIQU7)
 - [train_inception_v3.ipynb](https://github.com/codeamt/WindFarmSpotter/blob/master/notebooks/train_inception_v3.ipynb) || [View in Colab](https://drive.google.com/open?id=1fIUkuPzIbUGJH8xqxG10YJ024K4WeJtU)
 
+**Updates:**
+- 12/23/2019 - updated Colab link to new EfficientNet training notebok with updated training strategy
 
 
 ## Training Evaluation 
