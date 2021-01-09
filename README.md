@@ -4,13 +4,35 @@
   <img src="https://ucarecdn.com/bba2f0e8-832e-475a-9796-67b9e33644e7/1_bHijJYSTPw8YcKSDoBHq3g.png" width=50%>
 </p>
 
+Wind Farm Spotter is an inference engine for classifying the capacity of existing land-based U.S. Wind Farms and the potential capacity of unoccupied locations for new Wind Farm projects based on aerial satellite images.
 
-## Pre-requisites: 
+## Software/Tools Used:  
+- Google Earth Engine 
+- Google Drive 
+- Google Colab/JupyterNotebook
+- Basemap 
+- ArcGIS API Service 
+- PyTorch 1.1 / Torchvision v0.3.0 
+- pytorchcv
+- Fastai
+- XQuartz (X11)
+- Ubuntu 18.04.3
+- Jetpack 4
+- Flask, Python 3.6, pip3
+- Kitura, Swift 5.0.1, Swift PM, swiftlang 
+- Virtualenv
+- Docker Community Edition, Edge
 
-```
+Medium Post: https://medium.com/experimenting-with-deep-learning/spotting-potential-classifying-prime-areas-for-renewable-wind-energy-farms-with-computer-vision-3085018c821c (Draft)
 
-```
 
+## Notebooks for Training/Inference:
+
+Link: [Here](https://github.com/codeamt/WindFarmSpotter/tree/master/notebooks)
+
+## Swift Server-Side Version: 
+
+Link: [Here](https://github.com/codeamt/WindFarmSpotter/tree/wfs-swift-edge)
 
 
 ## Build Instructions 
