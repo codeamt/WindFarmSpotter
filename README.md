@@ -48,7 +48,7 @@ source <env name, e.g., wfs_py_env> && cd ~/<env name, e.g., wfs_py_env>**
 source bin/activate
 ```
 
-Update, Upgrade, and Purge Apt Dependencies: 
+**Update, Upgrade, and Purge Apt Dependencies:** 
 ```
 sudo apt-get -y update
 sudo apt-get -y upgrade
@@ -57,7 +57,7 @@ sudo apt-get -y purge \
 	python3-matplotlib python3-pandas python3-pil
 ```
 
-**Install Necessary Dependencies: **
+**Install Necessary Dependencies:**
 ```
 sudo apt-get -y install \
 	python3-pip build-essential python-dev git \
