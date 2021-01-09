@@ -110,7 +110,7 @@ And from here, you're ready to run inference...
 
 ## Running + Usage
 
-**via Terminal:**
+**Option One: via Terminal:**
 
 Create an SSH Connection to the Jetson from Host:
 ```
@@ -143,7 +143,7 @@ curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json"  
 ```
 
 
-**via Front End:**
+**OPTION TWO: via Front End:**
 Create an port forwarded SSH Connection to the Jetson from Host:
 ```
 ssh -X -Y -L 5555:localhost:5555 <user>:<ip_address>
